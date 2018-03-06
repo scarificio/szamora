@@ -19,7 +19,7 @@ public class Alumne {
 
 		/* Diu si l'alumne és major d'edat */
 		public boolean esMajorEdat() {
-			return (this.edat > 18);
+			return (this.edat >= 18);
 		}
 
 		/* Diu si l'alumne ha aprovat M5. Cal tenir una nota mínima de 5 i no 
